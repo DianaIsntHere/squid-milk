@@ -1,39 +1,39 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "squidmilk",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "Squid Milking",
+	"description": "Milk squids like its Beta 1.2",
 	"authors": [
-		"Turnip Labs"
+		"dianaisnthere"
 	],
 	"contact": {
 		"homepage": "",
 		"sources": ""
 	},
 	"icon": "icon.png",
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+			"dianaisnthere.squidmilk.squidmilkMain"
 		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"dianaisnthere.squidmilk.squidmilkMain"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"dianaisnthere.squidmilk.squidmilkMain"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"dianaisnthere.squidmilk.squidmilkMain"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"squidmilk.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
-		"halplibe": ">=${halplibe}",
+		"halplibe": ">=5.3.2",
 		"minecraft": "*",
 		"java": ">=${java}"
 	},
