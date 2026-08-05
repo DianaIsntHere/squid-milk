@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "squidmilk",
+	"id": "sdof",
 	"version": "${version}",
-	"name": "Squid Milking",
-	"description": "Milk squids like its Beta 1.2",
+	"name": "Squid Milk",
+	"description": "Milk squids in BTA! like its Beta 1.2!",
 	"authors": [
 		"dianaisnthere"
 	],
@@ -18,13 +18,7 @@
 		"main": [
 			"dianaisnthere.squidmilk.squidmilkMain"
 		],
-		"beforeGameStart": [
-			"dianaisnthere.squidmilk.squidmilkMain"
-		],
-		"afterGameStart": [
-			"dianaisnthere.squidmilk.squidmilkMain"
-		],
-		"recipesReady": [
+		"client": [
 			"dianaisnthere.squidmilk.squidmilkMain"
 		]
 	},
@@ -33,7 +27,6 @@
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
-		"halplibe": ">=5.3.2",
 		"minecraft": "*",
 		"java": ">=${java}"
 	},
