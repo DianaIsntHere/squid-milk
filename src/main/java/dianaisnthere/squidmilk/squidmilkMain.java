@@ -6,31 +6,26 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import turniplabs.halplibe.HalpLibe;
-import turniplabs.halplibe.event.defs.CommonEvents;
-import turniplabs.halplibe.helper.RecipeBuilder;
-import turniplabs.halplibe.util.dependency.Key;
-
 public class squidmilkMain implements ModInitializer, ClientModInitializer {
 
-	public static final String MOD_ID = HalpLibe.registerMod("squidmilk", true);
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	//public static final String MOD_ID = HalpLibe.registerMod("squidmilk", true);
+	//public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	private static final Key KEY = Key.of(MOD_ID);
+	//private static final Key KEY = Key.of(MOD_ID);
 
 	@Override
 	public void onInitialize() {
 
-		CommonEvents.RECIPES_NAMESPACE_INIT.listen(KEY, () -> {
-			RecipeBuilder.initNameSpace(MOD_ID);
-			RecipeBuilder.getRecipeNamespace(MOD_ID);
-		});
+		//CommonEvents.RECIPES_NAMESPACE_INIT.listen(KEY, () -> {
+		//	RecipeBuilder.initNameSpace(MOD_ID);
+		//	RecipeBuilder.getRecipeNamespace(MOD_ID);
+		//});
 
-		LOGGER.info("Squid Milk initialized");
+		//LOGGER.info("Squid Milk initialized");
 	}
 
 	@Override
 	public void onInitializeClient() {
-		LOGGER.info("SDOF initialized client");
+		//LOGGER.info("SDOF initialized client");
 	}
 }

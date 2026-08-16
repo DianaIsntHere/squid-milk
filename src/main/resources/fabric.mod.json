@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "sdof",
+	"id": "squidmilk",
 	"version": "${version}",
 	"name": "Squid Milk",
 	"description": "Milk squids in BTA! like its Beta 1.2!",
@@ -8,8 +8,8 @@
 		"dianaisnthere"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://github.com/dianaisnthere/squid-milk/tree/8.0",
+		"sources": "https://github.com/dianaisnthere/squid-milk/tree/8.0"
 	},
 	"icon": "icon.png",
 	"license": "MIT",
